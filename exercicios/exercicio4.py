@@ -73,8 +73,13 @@ for caracter in texto:
     else:
         consoantes = consoantes + 1
         
+print('')
 print('Vogais usadas: ',vogaiss)        
+print('')
 print('Consoantes usadas: ',consoante)
+print('')
 print('Vogais: ',vogais) 
+print('')
 print('Consoantes: ', consoantes)
-print('Total de letras: ', (vogais+consoantes))
+print('')
+print('Total de caracteres: ', (vogais+consoantes))

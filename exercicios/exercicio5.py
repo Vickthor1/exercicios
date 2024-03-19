@@ -2,20 +2,21 @@
 #números pares no vetor PAR e os números IMPARES no vetor impar. Imprima os três
 #vetores.
 
-listaimpar = []
+n = 20
+numeros = []
+pares = []
+impares = []
 
-listapar = []
-
-numeros = (int,range(1,20))
-
-for x in numeros:
-    if (numeros % 2) == 0:
-        print("Par")
-        listaimpar.append(numeros)
-
+for i in range(n):
+    numero = int(input(f'Digite o {i + 1}° número inteiro: '))
+    numeros.append(numero)
+    
+    if numero % 2 == 0:
+        pares.append(numero)
+        
     else:
-        print("Ímpar")
-        listapar.append(numeros)
+        impares.append(numero)
 
-print('impar: ',listaimpar)
-print('par: ',listapar)
+print(f'\nNumeros: {numeros}')
+print(f'Pares: {pares}')
+print(f'Impares: {impares}\n')
