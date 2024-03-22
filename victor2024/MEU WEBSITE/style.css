@@ -1,0 +1,37 @@
+h1{
+    
+    font-size: 100px;
+    color: #FF9800;
+}
+
+.instagram{
+    background-color: #95CD41; 
+    border: solid 1px #FF9800;
+    border-radius: 20px;
+    color: black;
+    transition: transform 0.5s ease;
+}
+.email{
+    background-color: #cd4141; 
+    border: solid 1px #FF9800;
+    border-radius: 20px;
+    color: white;
+    transition: transform 0.5s ease;
+}
+.instagram:hover{
+    background-color: #F6D860;
+    color: black;
+}
+.email:hover{
+    background-color: #F6D860;
+    color: black;
+}
+.email{
+    font-size:x-large; font-style: oblique;
+}
+.instagram{
+    font-size:x-large; font-style: oblique;
+}
+body{
+    background-color: #FFF8EA;
+}

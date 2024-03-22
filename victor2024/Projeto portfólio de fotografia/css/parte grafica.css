@@ -1,0 +1,97 @@
+body {
+	background-color: #282828;
+	color: #fff;
+}
+
+.cabecalho {
+	height: 80px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 80px;
+	border-bottom: 1px solid #282828;
+}
+.cabecalho .menu {
+	display: flex;
+	gap: 30px;
+}
+
+.cabecalho .logo {
+	display: flex;
+	gap: 15px;
+}
+
+.cabecalho .menu li a {
+	padding: 30px;
+	color: #282828;
+	font-weight: bolder;
+	font-size: 15px;
+	font-family: "Chalet";
+}
+
+.cabecalho .menu li a:hover {
+	border-bottom: 2px solid #282828;
+}
+
+.home {
+	display: flex;
+	position: relative;
+	min-height: calc(100vh - 80px);
+}
+
+.home .meunome {
+  padding: 30px;
+}
+.home .meunome {
+	position: absolute;
+	z-index: 1;
+	min-height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 32px;
+	padding: 80px 80px 80px 170px;
+	max-width: 780px;
+}
+
+.home .meunome img {
+  max-width: 100px;
+}
+
+.home .meunome .titulo {
+  font-size: 40px;
+}
+.home .imagem-fundo {
+	width: 100%;
+	object-fit: cover;
+}
+
+.mainPage{
+  background-color: black;
+  color: white;
+}
+
+.cabecalho{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.home{
+	border: none;
+}
+
+.meunome{
+	position: absolute;
+	font-size: 50px;
+	left: 450px;
+	top: 350px;
+}
+.titulo{
+	position: absolute;
+	font-size: 50px;
+	left: 500px;
+	top: 400px;
+}

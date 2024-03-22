@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+    .cabecalho {
+      justify-content: center;
+      flex-direction: column;
+      padding: 50px 0;
+      gap: 15px;
+    }
+    .cabecalho .menu li a {
+        padding: 15px;
+      }
+}
