@@ -1,1 +1,15 @@
-ggggg
+
+Requisitos Funcionais:
+
+Registro de Usuário
+Catálogo de Produtos
+Processo de Compra
+Gestão de Pedidos
+Administração de Estoque
+Requisitos Não Funcionais:
+
+i. Usabilidade: Interface intuitiva e fácil de usar.
+ii. Desempenho: Capacidade de lidar com grande volume de tráfego.
+iii. Segurança: Implementação de medidas de proteção de dados.
+iv. Disponibilidade: Acesso 24/7 com mínimo tempo de inatividade planejado.
+v. Escalabilidade: Capacidade de crescer sem comprometer desempenho ou disponibilidade.
